@@ -18,7 +18,7 @@ public class BasePage {
     @FindBy(linkText = "Monitors")
     private WebElement monitors;
 
-    public void navigateTo(String categoryName) {
+    public  void navigateTo(String categoryName) {
         if (categoryName.contentEquals("Phones")) {
             phones.click();
         } else if (categoryName.contentEquals("Laptops")) {
